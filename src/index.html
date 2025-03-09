@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code JAM Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1 class="hero-title">Code JAM 2023</h1>
+        <p class="hero-subtitle">Showcase your coding skills and creativity</p>
+        <a href="#projects" class="btn-primary">View Projects</a>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="submission.html">Submit Project</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">Submitted Projects</h2>
+          <div class="projects-grid">
+            <!-- Project cards will be dynamically loaded from projects.json -->
+            <div class="loading">Loading projects...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prizes Section -->
+      <section id="prizes" class="prizes-section">
+        <div class="container">
+          <h2 class="section-title">Competition Prizes</h2>
+          <div class="prizes-container">
+            <div class="prize-card first-prize">
+              <div class="prize-icon">🏆</div>
+              <h3 class="prize-title">First Prize</h3>
+              <p class="prize-description">
+                €1,000 cash prize + Professional mentorship from industry
+                experts
+              </p>
+            </div>
+
+            <div class="prize-card second-prize">
+              <div class="prize-icon">🥈</div>
+              <h3 class="prize-title">Second Prize</h3>
+              <p class="prize-description">
+                €500 cash prize + Premium developer tools subscription
+              </p>
+            </div>
+
+            <div class="prize-card third-prize">
+              <div class="prize-icon">🥉</div>
+              <h3 class="prize-title">Third Prize</h3>
+              <p class="prize-description">
+                €250 cash prize + Digital gift cards
+              </p>
+            </div>
+
+            <div class="prize-card honorable-mention">
+              <div class="prize-icon">🎖️</div>
+              <h3 class="prize-title">Honorable Mentions</h3>
+              <p class="prize-description">
+                Recognition on our website and social media channels + Digital
+                certificates
+              </p>
+            </div>
+          </div>
+
+          <div class="prizes-note">
+            <p>
+              All participants will receive a participation certificate and
+              exclusive Code JAM swag.
+            </p>
+            <a href="rules.html" class="btn-secondary"
+              >View Competition Rules</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 Code JAM Template. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">Twitter</a>
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">Discord</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/background-effects.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

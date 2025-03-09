@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competition Rules - Code JAM 2023</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="submission.html">Submit Project</a></li>
+                <li><a href="rules.html" class="active">Rules</a></li>
+                <li><a href="index.html#prizes">Prizes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="rules-section">
+            <div class="container">
+                <h2 class="section-title">Competition Rules</h2>
+                <div class="rules-container" id="rules-content">
+                    <!-- Rules content will be loaded here from markdown file -->
+                    <div class="loading">Loading rules...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Code JAM Template. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script>
+        // Load and parse markdown content
+        document.addEventListener('DOMContentLoaded', function() {
+            const rulesContainer = document.getElementById('rules-content');
+            
+            // Fetch the markdown file
+            fetch('rules.md')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load rules');
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    // Parse markdown to HTML
+                    const htmlContent = marked.parse(markdown);
+                    rulesContainer.innerHTML = htmlContent;
+                })
+                .catch(error => {
+                    rulesContainer.innerHTML = `<div class="error-message">Error loading rules: ${error.message}</div>`;
+                });
+        });
+    </script>
+</body>
+</html>
