@@ -4,7 +4,7 @@
 
 A customizable template for organizing and hosting Code JAM competitions. This template provides everything you need to set up a coding competition website with project submissions, rules display, and prize information.
 
-![OpenTemplate JAM Preview](images/project1.jpg)
+![JAM Preview](assets/example.mp4)
 
 ## 📋 Features
 
