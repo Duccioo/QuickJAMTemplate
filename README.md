@@ -1,4 +1,4 @@
-# OpenTemplate JAM
+# Quick JAM TEMPLATE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -161,9 +161,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contributions are welcome! Feel free to submit issues or pull requests to improve the template.
 
-## 📞 Support
+## 📞 Feedback
 
-If you have any questions or need assistance, please open an issue on the GitHub repository.
+If you have any feedback, please reach out to me at meconcelliduccio@gmail.com or visit my website
+[duccio.me](https://duccio.me)
+
+## Authors
+
+- [@duccioo](https://github.com/Duccioo)
 
 ---
 
