@@ -30,7 +30,7 @@ A customizable template for organizing and hosting Code JAM competitions. This t
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/OpenTemplateJAM.git
+   git clone https://github.com/Duccioo/QuickJAMTemplate.git
    ```
 
 2. Upload the files to your web server or hosting service
