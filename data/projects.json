@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pixel Adventure 3",
+      "subtitle": "A retro-style platformer game",
+      "image": "https://images.pexels.com/photos/4048672/pexels-photo-4048672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "detailsUrl": "#",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "title": "Data Visualizer",
+      "subtitle": "Interactive data visualization tool",
+      "image": "https://images.pexels.com/photos/15693325/pexels-photo-15693325/free-photo-of-boats-on-the-lake-in-fog.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "detailsUrl": "#",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "title": "AI Assistant",
+      "subtitle": "Smart chatbot with machine learning",
+      "image": "https://images.pexels.com/photos/17555909/pexels-photo-17555909/free-photo-of-cup-on-yellow-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "detailsUrl": "#",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "title": "Music Mixer",
+      "subtitle": "Web-based audio mixing application",
+      "image": "https://images.pexels.com/photos/9197430/pexels-photo-9197430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=500&dpr=2",
+      "detailsUrl": "#",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "title": "Weather Tracker",
+      "subtitle": "Real-time weather monitoring system",
+      "image": "images/project5.jpg",
+      "detailsUrl": "#",
+      "visible": false
+    },
+    {
+      "id": 6,
+      "title": "Task Manager",
+      "subtitle": "Productivity app with task tracking",
+      "image": "https://images.pexels.com/photos/30893119/pexels-photo-30893119/free-photo-of-parrot-nestled-in-tree-hollow-in-colombia.jpeg?auto=compress&cs=tinysrgb&w=1000&lazy=load",
+      "detailsUrl": "#",
+      "visible": true
+    },
+    {
+      "id": 7,
+      "title": "Budget Planner",
+      "subtitle": "Financial planning application",
+      "image": "images/project1.jpg",
+      "detailsUrl": "#",
+      "visible": false
+    }
+  ]
+}

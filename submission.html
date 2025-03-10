@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Project - Code JAM 2023</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="submission.html" class="active">Submit Project</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="index.html#prizes">Prizes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="submission-section">
+        <div class="container">
+          <h2 class="section-title">Project Submission Form</h2>
+          <div class="form-container">
+            <form id="jam-submission-form">
+              <div class="form-group">
+                <label for="github-link">GitHub Repository URL*</label>
+                <input
+                  type="url"
+                  id="github-link"
+                  class="form-control"
+                  placeholder="https://github.com/username/repository"
+                  required
+                />
+                <div class="validation-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="project-title">Project Title*</label>
+                <input
+                  type="text"
+                  id="project-title"
+                  class="form-control"
+                  placeholder="Enter your project title"
+                  required
+                />
+                <div class="validation-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="project-subtitle">Project Subtitle*</label>
+                <input
+                  type="text"
+                  id="project-subtitle"
+                  class="form-control"
+                  placeholder="A short description of your project"
+                  required
+                />
+                <div class="validation-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="creator-email">Creator Email*</label>
+                <input
+                  type="email"
+                  id="creator-email"
+                  class="form-control"
+                  placeholder="your.email@example.com"
+                  required
+                />
+                <div class="validation-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="project-image">Project Image*</label>
+                <div class="file-upload">
+                  <label for="project-image" class="file-upload-label"
+                    >Choose an image file</label
+                  >
+                  <input
+                    type="file"
+                    id="project-image"
+                    accept="image/*"
+                    required
+                  />
+                </div>
+                <div class="validation-message"></div>
+              </div>
+
+              <button type="submit" id="submit-project" class="btn-primary">
+                Submit Project
+              </button>
+
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 Code JAM Template. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">Twitter</a>
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">Discord</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/form-validation.js"></script>
+  </body>
+</html>
