@@ -4,6 +4,8 @@
 
 A customizable template for organizing and hosting Code JAM competitions. This template provides everything you need to set up a coding competition website with project submissions, rules display, and prize information.
 
+[Check the preview HERE !!!](https://duccioo.github.io/QuickJAMTemplate/)
+
 ![JAM Preview](assets/example.gif)
 
 ## 📋 Features
